@@ -1,0 +1,19 @@
+GIT
+  remote: git://github.com/codeschool/fakefs.git
+  revision: 6ae3212e3dab013b4b5e290d1aceba6466b30dec
+  ref: 6ae3212e3dab013b4b5e290d1aceba6466b30dec
+  specs:
+    fakefs (0.4.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    jruby_sandbox (0.2.1-java)
+      fakefs
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  fakefs!
+  jruby_sandbox (~> 0.2.1)
